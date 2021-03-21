@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>321</width>
+    <height>553</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>学生通讯录管理系统</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>20</y>
+      <width>221</width>
+      <height>481</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QPushButton" name="createButton">
+       <property name="text">
+        <string>新建通讯录</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="openButton">
+       <property name="text">
+        <string>打开通讯录</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="showButton">
+       <property name="text">
+        <string>显示通讯录内容</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="searchButton">
+       <property name="text">
+        <string>查找通讯录内容</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="addButton">
+       <property name="text">
+        <string>添加通讯录内容</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="modifyButton">
+       <property name="text">
+        <string>修改通讯录内容</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="deleteButton">
+       <property name="text">
+        <string>删除通讯录内容</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="sortButton">
+       <property name="text">
+        <string>对通讯录内容进行排序</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>321</width>
+     <height>17</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,3 @@
+1.先利用pdfminer将PDF文件改为TXT文件，并将生成的TXT文件放在论文PDF文件下的TEXT文件夹下
+2.合并TEXT文件夹下的TXT文件为result.txt文件
+3.读取result.txt文件，并生成词云，同时将次元放在WORDCLOUDPATH路径下

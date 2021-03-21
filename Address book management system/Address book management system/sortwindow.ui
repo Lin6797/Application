@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SortWindow</class>
+ <widget class="QMainWindow" name="SortWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>292</width>
+    <height>322</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>排序</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>30</y>
+      <width>221</width>
+      <height>231</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QPushButton" name="name_button">
+       <property name="text">
+        <string>按姓名进行排序</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="number_button">
+       <property name="text">
+        <string>按学号进行排序</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="reNameButton">
+       <property name="text">
+        <string>按姓名进行逆排序</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="reNumberButton">
+       <property name="text">
+        <string>按学号进行逆排序</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>292</width>
+     <height>17</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

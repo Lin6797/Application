@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ModifyWindow</class>
+ <widget class="QMainWindow" name="ModifyWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>601</width>
+    <height>376</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>修改</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="horizontalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>10</y>
+      <width>541</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLineEdit" name="name_search"/>
+     </item>
+     <item>
+      <widget class="QPushButton" name="name_button">
+       <property name="text">
+        <string>按姓名查找</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="number_search"/>
+     </item>
+     <item>
+      <widget class="QPushButton" name="number_button">
+       <property name="text">
+        <string>按学号查找</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="formLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>89</y>
+      <width>451</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <layout class="QFormLayout" name="formLayout">
+     <item row="0" column="0">
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>学号：</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_2">
+       <property name="text">
+        <string>姓名：</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="label_3">
+       <property name="text">
+        <string>年级：</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="label_4">
+       <property name="text">
+        <string>学院：</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QLabel" name="label_5">
+       <property name="text">
+        <string>专业：</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="0">
+      <widget class="QLabel" name="label_6">
+       <property name="text">
+        <string>电话：</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLineEdit" name="number_edit"/>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLineEdit" name="name_edit"/>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLineEdit" name="grade_edit"/>
+     </item>
+     <item row="3" column="1">
+      <widget class="QLineEdit" name="acadamy_edit"/>
+     </item>
+     <item row="4" column="1">
+      <widget class="QLineEdit" name="majory_edit"/>
+     </item>
+     <item row="5" column="1">
+      <widget class="QLineEdit" name="phone_edit"/>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QPushButton" name="surebutton">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>290</y>
+      <width>131</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>确认修改</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>601</width>
+     <height>17</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
